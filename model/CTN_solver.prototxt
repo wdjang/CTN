@@ -1,0 +1,13 @@
+net: "/media/HDD1/wdjang/Downloads/CTN_code/model_pixel/CTN_train.prototxt"
+test_iter: 0
+test_interval: 1000000
+base_lr: 0.001
+lr_policy: "multistep"
+gamma: 0.1
+stepvalue: 219968
+display: 100
+max_iter: 1000000
+momentum: 0.9
+weight_decay: 0.0002
+snapshot: 15712
+snapshot_prefix: "snapshots/CTN"
